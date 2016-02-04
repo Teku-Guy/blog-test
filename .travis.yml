@@ -30,6 +30,7 @@ install:
   # - pandoc --version
 
   # Install Jekyll and dependencies
+  - public_suffix -v '1.5.3
   - bundle install
 
 script: bundle exec rake site:deploy --quiet
