@@ -1,21 +1,3 @@
-#language: ruby
-#rvm:
-#  - 2.1
-#script:
-#  - bundle exec jekyll build
-#  - bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html
-
-#branches:
-#  only:
-#    - master
-#    - gh-pages
-
-#env:
-#  global:
-#    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
-
-
 language: ruby
 
 install:
@@ -30,14 +12,13 @@ install:
   # - pandoc --version
 
   # Install Jekyll and dependencies
-  - public_suffix -v '1.5.3
   - bundle install
 
 script: bundle exec rake site:deploy --quiet
 
 env:
   global:
-    secure: EXAMPLE
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 # Generate your secure token with the travis gem:
 # get Github token from your Travis CI profile page
