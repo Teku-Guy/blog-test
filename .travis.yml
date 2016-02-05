@@ -1,6 +1,10 @@
 language: ruby
+script: "./build.sh"
 rvm:
 - 2.0.0
 - 1.9.3
 - jruby-19mode
 - rbx-2
+env:
+  global:
+    secure: T1RvBE0+Z5veVJ4EE8d/Fg167JgZoZFdwcwHf9k6O7gOQPUgQh+CkHASzarEmOG/9kCnoVTHC3d68PTAP6qAEqBVkCspR72XRKPcKz5eqEWfDg4pFw6eTwppUxk6nSJuDPkAUgIcNLjZjOvx3jAtxyhfmf4MA5x50CUzlCaacgYDqjb5/XoIN44AMuuGhdaid1MeWDd7DSd2E/Cgo7nNfWIlOtTIPA+XUBksUtvuUDK5nQW4VqeyXxprt8Iz+yOpmhzsCWtsaJtKTeMkBwRf0TigNE9XAvCsutR4VC5VZ/fzQToliqB36q8Jz3+RaQzgoNQlu0yvO/9vUjb2e9ATNA9F+XsL6QT8kv1uWEs1ZepbHDFdGye1DihXUjOcBQSKXnTTra/hyFcksbsyWtAsXcFV8pVeOO/Nn8RbjuCrMx+ZkQRw30Gi2VKxP5Adh/ju5eZL6xAD74gj9ZruXUUjfoYAmWhVtHldAENiPqEsGujFjAdeHXkRzsr4l4JZI/4VpfElXTTKhoWR/BC0pSXk/1o3mdsp0RXUp6DYqS/m0FUFTzF22sn4tWWyF69k2laoR2nJKv1kx7gJ7264QpAWEAVZhXXV0aI8dqSgFLxVxE7iAxmkOGJJ4/mHlmLt4FfY6ICBiuFJCJOmWnBOICrD6t35UhtCYq8JzOF5SOqWYx0=
