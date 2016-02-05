@@ -1,11 +1,23 @@
 # Blog-Test
 
-[//]: #[![Gem Version](https://img.shields.io/gem/v/jekyll.svg)][ruby-gems]
-[![Build Status](https://travis-ci.org/Teku-Guy/blog-test.svg?branch=master)][travis]
+[![Version](https://github.com/Teku-Guy/blog-test)][Version]
+[![Build Status](https://travis-ci.org/jekyll/jekyll.svg?branch=master)][travis]
+[![Test Coverage](https://codeclimate.com/github/jekyll/jekyll/badges/coverage.svg)][coverage]
+[![Code Climate](https://codeclimate.com/repos/56b417aa90343f00700057bd/badges/00fecd4c1b841b57f4cd/gpa.svg)][codeclimate]
+[![Dependency Status](https://gemnasium.com/Teku-Guy/blog-test.svg)][gemnasium]
+[![Security](https://hakiri.io/github/jekyll/jekyll/master.svg)][hakiri]
+
 [![Test Coverage](https://codeclimate.com/github/jekyll/jekyll/badges/coverage.svg)][coverage]
 [![Code Climate](https://codeclimate.com/github/jekyll/jekyll/badges/gpa.svg)][codeclimate]
-[![DependencyStatus](https://gemnasium.com/Teku-Guy/blog-test.svg)](https://gemnasium.com/Teku-Guy/blog-test)][gemnasium]
+[![Dependency Status](https://gemnasium.com/jekyll/jekyll.svg)][gemnasium]
 [![Security](https://hakiri.io/github/jekyll/jekyll/master.svg)][hakiri]
+
+[Version]: https://github.com/Teku-Guy/blog-test
+[gemnasium]: https://gemnasium.com/jekyll/jekyll
+[codeclimate]: https://codeclimate.com/repos/56b417aa90343f00700057bd/feed
+[coverage]: https://codeclimate.com/github/jekyll/jekyll/coverage
+[hakiri]: https://hakiri.io/github/jekyll/jekyll/master
+[travis]: https://travis-ci.org/teku-guy/blog-test
 
 Testing of a free Blog site.
 ---------
