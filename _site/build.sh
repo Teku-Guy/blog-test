@@ -10,7 +10,7 @@ fi
 set -e
 
 # build site with jekyll, by default to `_site' folder
-jekyll serve
+jekyll build
 
 # cleanup
 rm -rf ../teku-guy.github.io.master
@@ -23,7 +23,7 @@ cp -R _site/* ../teku-guy.github.io.master
 
 # commit and push generated content to `master' branch
 # since repository was cloned in write mode with token auth - we can push there
-cd ../eshepelyuk.github.io.master
+cd ../teku-guy.github.io.master
 git config user.email "gusmuratalla@gmail.com"
 git config user.name "Teku-Guy"
 git add -A .
